@@ -56,7 +56,7 @@ public class StudentController {
 		return studser.addallstud(stud);
 	}
 
-	@GetMapping(value = "/getallstud")
+	@GetMapping(value = "/getall")
 	public List<Student> getallstud() {
 		return studser.getallstud();
 	}
